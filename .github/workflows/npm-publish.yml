@@ -22,4 +22,4 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.KNE_PACKAGE_PUBLISH}}
       - run: npm i -g cnpm
-      - run: cnpm sync @kne/cra-template-lib
+      - run: cnpm sync @kne/cra-template-mini-lib
